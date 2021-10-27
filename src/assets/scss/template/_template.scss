@@ -1,7 +1,4 @@
-// These are the styles to make some of the templates look extra nice.
-// Feel free to remove these styles for production!
-
-// Body Styles 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
 body,
 html, 
 .body {
@@ -14,4 +11,38 @@ html,
   .header__container {
     padding: 30px !important;
   }
+}
+
+.content__img {
+  background: #f8f9fb !important;
+}
+
+.content__info-container {
+  padding-top: 20px;
+  .content__info-title {
+    font-family: 'Merriweather', serif;
+    font-size: 40px !important;
+    font-weight: 700;
+    color: #222222;
+  }
+  .content__info-subtitle {
+    color: #7d7d7d;
+  }
+
+  .content__info-btn_container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .content__info-button {
+      background: #000000;
+      color: #eaeaea;
+      padding: 15px 25px !important;
+      margin-top: 20px;
+    }
+
+  }
+  .content__info-limit {
+    color: #979797;
+  }
+  
 }
