@@ -46,3 +46,32 @@ html,
   }
   
 }
+
+.footer {
+  background:#000000;
+
+  .footer__top-links {
+    padding-top: 25px !important;
+    padding-bottom: 5px !important;
+    th {
+      text-align: center;
+    }
+    .footer__top-link {
+      color: #eaeaea;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 15px !important;
+      margin-right: 12px ;
+    }
+    .divider {
+      border-left: 2px solid #eaeaea;
+      border-width: medium;
+      margin-right: 10px ;
+    }
+  }
+
+  .footer__top-address {
+    color: #eaeaea;
+    font-size: 14px;
+  }
+}
