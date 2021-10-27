@@ -5,5 +5,13 @@
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+  background: #ffffff !important;
+}
+
+.header {
+  background: #ffffff !important;
+
+  .header__container {
+    padding: 30px !important;
+  }
 }
