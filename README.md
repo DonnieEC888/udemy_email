@@ -4,7 +4,7 @@ On Sale promotional email created for Udemy.
 Skills: 
 * HTML
 * SCSS/SASS
-* Foundation Email Framework
+* Foundation For Emails
 * Sketch
 * Litmus
 
